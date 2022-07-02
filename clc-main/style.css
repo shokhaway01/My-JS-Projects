@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: deeppink;
+    background: url(11.jpg);
 }
 .container{
     justify-content: center;
@@ -17,7 +17,7 @@ body{
     border-radius: 10px;
     position: relative;
     top: 130px;
-    background: purple;
+    background: rgb(82, 0, 82);
     color: white;
 }
 .row{
