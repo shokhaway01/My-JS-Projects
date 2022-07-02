@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Console</a>
+        <a href="">Download</a>
+        <a href="">SingIn</a>
+    </header>
+    <script>
+        const header = document.querySelector(".header")
+        console.log(header)
+
+        window.addEventListener("scroll", function () {
+            console.log("scrolled")
+            let scrollPos = window.scrollY;
+
+            if (scrollPos > 0) {
+                header.classList.add('red');
+            } else {
+                header.classList.remove('red');
+            }
+        });
+
+    </script>
+</body>
+
+</html>
