@@ -1,0 +1,54 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 900;
+    transition: all 1s;
+}
+
+.tasbeh {
+width: 163px;
+height: 182px;
+background-color: purple;
+position: absolute;
+top: 42px;
+left: 42%;
+border-radius: 15px;
+border: 60px dashed  black;
+}   
+.ekran {
+width: 55%;
+position: absolute;
+top: 10%;
+left: 21%;
+height: 30px;
+caret-color:  white;
+border-radius: 5px;
+border: 5px Dashed purple;
+text-align: center;
+font-size: 23px;
+}
+.tugma {
+    position: absolute;
+top: 40%;
+left: 36%;
+width: 28%;
+height: 44px;
+border-radius: 82%;
+background-color: black;
+border: 3px dashed purple;
+}
+
+.nolga {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    width: 30%;
+    height: 50px;
+    border-radius: 80%;
+    border: 3px dashed purple;
+    background-color: #fff;
+  }
+   
